@@ -145,7 +145,7 @@
       }
     },
     "variables": {
-    "workspacename": "[concat('quick-starts-ws-',parameters('uniqueSuffix')) ]",
+    "workspacename": "[concat('ai-in-a-day-', parameters('DeploymentID'))]",
     "computeinstancename": "[concat('notebook',parameters('uniqueSuffix'))]"
     },
     "resources": [
